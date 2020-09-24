@@ -33,14 +33,22 @@ header {
                 font-size: 16px;
                 font-weight: 600;
                 line-height: 32px;
+
+                &:hover {
+                    cursor: pointer;
+                }
             }
 
-            div{
+            div {
                 display: flex;
                 align-items: center;
                 color: $grey;
                 font-size: 16px;
                 font-weight: 600;
+
+                &:hover {
+                    cursor: pointer;
+                }
 
                 p {
                     color: $grey;
@@ -54,7 +62,36 @@ header {
                     color: $grey;
                     font-size: 12px;
                     margin-top: 10px;
+                    position: relative;
+                    display: inline-block;
                 }
+
+                .DropdownContent {
+                    display: none;
+                    // display: block;
+                    position: absolute;
+                    -webkit-box-shadow: 0px 0px 10px 5px rgba(122,118,118,0.7);
+                    -moz-box-shadow: 0px 0px 10px 5px rgba(122,118,118,0.7);
+                    box-shadow: 0px 0px 10px 5px rgba(122,118,118,0.7);
+                    padding: 16px 42px 16px 22px;
+                    z-index: 1;
+                    border-radius: 5px;
+                    top: 70px;
+                    
+
+                    p {
+                        margin-bottom: 10px;
+
+                        &:hover {
+                            cursor: pointer;
+                            color: rgba(0,0,0,0.8);
+                        }
+                    }
+                }
+
+                .DropdownShow {
+                    display: block;
+                  }
             }
         }
     }
