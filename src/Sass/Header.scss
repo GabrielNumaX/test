@@ -1,0 +1,104 @@
+@import 'Constants';
+
+header {
+    width: 100%;
+    height: 90px;
+    // background-color: $blue;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+    .LogoAndNav {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding-left: 70px;
+        justify-content: space-between;
+
+        img{
+            width: 190px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+            width: 60%;
+
+
+            p {
+                color: $pink;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 32px;
+            }
+
+            div{
+                display: flex;
+                align-items: center;
+                color: $grey;
+                font-size: 16px;
+                font-weight: 600;
+
+                p {
+                    color: $grey;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-right: 8px;
+                }
+    
+
+                .HeaderIcon {
+                    color: $grey;
+                    font-size: 12px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+    .HeaderBtn {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 80px;
+
+        .LoginBtn {
+            border: 2px solid $blue;
+            background-color: $white;
+            color: $blue;
+            border-radius: 10px;
+            font-size: 16px;
+            padding: 10px 40px;
+            margin-right: 20px;
+            font-weight: 600;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .SignupBtn {
+            border: none;
+            border-radius: 10px;
+            background-color: $blue;
+            color: $white;
+            font-size: 16px;
+            padding: 10px 40px;
+            font-weight: 600;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.HeaderShadow {
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(122,118,118,0.7);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(122,118,118,0.7);
+    box-shadow: 0px 0px 10px 5px rgba(122,118,118,0.7);
+}
