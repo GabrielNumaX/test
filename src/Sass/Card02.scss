@@ -1,7 +1,7 @@
 @import 'Constants';
 
 .Card02 {
-    width: 380px;
+    width: 320px;
     display: flex;
     flex-direction: column;
 
@@ -13,7 +13,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 326px;
+        min-height: 283px;
 
         img {
             width: 70%;
@@ -124,14 +124,15 @@
     .Includes {
         display: flex;
         flex-direction: column;
-        padding: 30px 20px 30px;
+        padding: 30px 10px 0 30px;
         background-color: $white;
-        height: 388px;
+        min-height: 440px;
 
         h5 {
             font-family: $roboto;
             color: $lightGrey;
-            font-size: 20px;
+            font-size: 18px;
+            letter-spacing: 5px;
             margin-bottom: 10px;
         }
 
@@ -167,8 +168,8 @@
     .Membership {
         display: flex;
         flex-direction: column;
-        height: 120px;
-        padding: 20px 70px;
+        padding: 20px 10px 20px 60px;
+        min-height: 150px;
         background-color: $lightGreyCard;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;

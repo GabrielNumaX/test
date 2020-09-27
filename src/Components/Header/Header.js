@@ -40,7 +40,7 @@ const Header = () => {
         }
 
         if(legal){
-            setLegal(!learn);
+            setLegal(!legal);
         }
     }
 
