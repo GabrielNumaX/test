@@ -1,0 +1,36 @@
+@import 'Constants';
+
+.Save {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+
+        h2 {
+            font-family: $peddana;
+            font-size: 80px;
+            text-align: center;
+        }
+
+        p {
+            color: $grey;
+            font-size: 22px;
+            text-align: center;
+            letter-spacing: 1.5px;
+
+            span {
+                vertical-align: super;
+                font-size: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+@import 'Constants';
+
+.Financial {
+    width: 100%;
+    display: flex;
+    padding: 40px 40px 40px 80px;
+    align-items: center;
+
+    .FinancialTxt {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+
+        h4 {
+            color: $blue;
+            font-family: $peddana;
+            font-size: 38px;
+        }
+
+        h3 {
+            font-family: $peddana;
+            font-size: 68px;
+            line-height: 50px;
+        }
+
+        p {
+            font-family: $roboto;
+            color: $grey;
+            font-size: 18px;
+            line-height: 1.5;
+            padding-top: 30px;
+            letter-spacing: 1.5px;
+        }
+    }
+
+    .FinancialPercentage {
+        display: flex;
+        width: 40%;
+        height: 220px;
+
+        .Percentage {
+            color: $blue;
+            font-family: $peddana;
+            font-size: 280px;
+            line-height: 280px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            height: 150px;
+            padding-top: 50px;
+
+            .PercentageSign {
+                color: $blue;
+                font-family: $peddana;
+                font-size: 160px;
+                line-height: 100px;
+            }
+
+            .Rates {
+                color: $blue;
+                font-family: $peddana;
+                font-size: 30px;
+                line-height: 22px;
+            }
+        }
+
+    }
+}
